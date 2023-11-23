@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url();
+    background-size: 100%;
+    background-color: #999;
+}
+
+.planet {
+    border-radius: 50%;
+}
+
+.sun {
+    height: 7.5rem;
+    width: 7.5rem;
+    background-color: yellow;
+    box-shadow: -4px 2px 56px #f9c05f;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mercury {
+    height: 1.25rem;
+    width: 1.25rem;
+    background: #a94c2b;
+    position: absolute;
+    box-shadow: -4px 2px 56px #f9c05f;
+    left: 43%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+    animation:orbit-2 2s linear infinite; 
+}
+
+.outline {
+    border-radius: 50%;
+    border: 1px dotted #ddd9dd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mercury-outline {
+    height: 140px;
+    width: 140px;
+}
+
+@keyframes orbit-2{
+    from{transform:rotate(0deg)translatex(70px) rotate(0deg) ;}
+    to{transform:rotate(360deg)translatex(70px) rotate(-360deg) ;}
+}
+
+p {
+    color: #fff;
+    font-family: roboto;
+    position: absolute;
+    left: -62px;
+    top: -11px;
+}
+
+.venus {
+    height: 2.5rem;
+    width: 2.5rem;
+    background: #d8a38f;
+    position: absolute;
+    box-shadow: -4px 2px 56px #c1aa81;
+    left: 40%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+    animation:orbit-3 10s linear infinite; 
+}
+
+.venus-outline {
+    height: 200px;
+    width: 200px;
+}
+
+@keyframes orbit-3 {
+    from{transform:rotate(0deg)translatex(100px) rotate(0deg) ;}
+    to{transform:rotate(360deg)translatex(100px) rotate(-360deg) ;}
+}
+.earth {
+    height: 50px;
+    width: 50px;
+    background: #94d88f;
+    position: absolute;
+    box-shadow: -4px 2px 56px #2855d6;
+    left: 44%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+    animation:orbit-4 20s linear infinite; 
+}
+
+.earth-outline {
+    height: 300px;
+    width: 300px;
+}
+
+@keyframes orbit-4 {
+    from{transform:rotate(0deg)translatex(150px) rotate(0deg) ;}
+    to{transform:rotate(360deg)translatex(150px) rotate(-360deg) ;}
+}
+
+
+.venus {
+    height: 2.5rem;
+    width: 2.5rem;
+    background: #d8a38f;
+    position: absolute;
+    box-shadow: -4px 2px 56px #c1aa81;
+    left: 40%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+    animation:orbit-3 10s linear infinite; 
+}
+
+.venus-outline {
+    height: 200px;
+    width: 200px;
+}
+
+@keyframes orbit-3 {
+    from{transform:rotate(0deg)translatex(100px) rotate(0deg) ;}
+    to{transform:rotate(360deg)translatex(100px) rotate(-360deg) ;}
+}
+.venus {
+    height: 2.5rem;
+    width: 2.5rem;
+    background: #d8a38f;
+    position: absolute;
+    box-shadow: -4px 2px 56px #c1aa81;
+    left: 40%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+    animation:orbit-3 10s linear infinite; 
+}
+
+.venus-outline {
+    height: 200px;
+    width: 200px;
+}
+
+@keyframes orbit-3 {
+    from{transform:rotate(0deg)translatex(100px) rotate(0deg) ;}
+    to{transform:rotate(360deg)translatex(100px) rotate(-360deg) ;}
+}
+.venus {
+    height: 2.5rem;
+    width: 2.5rem;
+    background: #d8a38f;
+    position: absolute;
+    box-shadow: -4px 2px 56px #c1aa81;
+    left: 40%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+    animation:orbit-3 10s linear infinite; 
+}
+
+.venus-outline {
+    height: 200px;
+    width: 200px;
+}
+
+@keyframes orbit-3 {
+    from{transform:rotate(0deg)translatex(100px) rotate(0deg) ;}
+    to{transform:rotate(360deg)translatex(100px) rotate(-360deg) ;}
+}
+.venus {
+    height: 2.5rem;
+    width: 2.5rem;
+    background: #d8a38f;
+    position: absolute;
+    box-shadow: -4px 2px 56px #c1aa81;
+    left: 40%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+    animation:orbit-3 10s linear infinite; 
+}
+
+.venus-outline {
+    height: 200px;
+    width: 200px;
+}
+
+@keyframes orbit-3 {
+    from{transform:rotate(0deg)translatex(100px) rotate(0deg) ;}
+    to{transform:rotate(360deg)translatex(100px) rotate(-360deg) ;}
+}
+.venus {
+    height: 2.5rem;
+    width: 2.5rem;
+    background: #d8a38f;
+    position: absolute;
+    box-shadow: -4px 2px 56px #c1aa81;
+    left: 40%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+    animation:orbit-3 10s linear infinite; 
+}
+
+.venus-outline {
+    height: 200px;
+    width: 200px;
+}
+
+@keyframes orbit-3 {
+    from{transform:rotate(0deg)translatex(100px) rotate(0deg) ;}
+    to{transform:rotate(360deg)translatex(100px) rotate(-360deg) ;}
+}
