@@ -92,7 +92,7 @@ p {
     position: absolute;
     box-shadow: -4px 2px 56px #2855d6;
     left: 44%;
-    top: 42%;
+    top: 43%;
     transform: translate(-50%, -50%);
     animation:orbit-4 20s linear infinite; 
 }
@@ -107,109 +107,135 @@ p {
     to{transform:rotate(360deg)translatex(150px) rotate(-360deg) ;}
 }
 
+.earth-circle {
+    width: 66px;
+    height: 66px;
+    border: 1px dotted #fff;
+    position: relative;
+    left: -8px;
+    top: -8px;
+    border-radius: 40px;
+}
 
-.venus {
-    height: 2.5rem;
-    width: 2.5rem;
+.earth-moon {
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 45%;
+    top: 45%;
+    animation: orbit-moon 3s linear infinite;
+}
+
+@keyframes orbit-moon {
+    from{transform:rotate(0deg)translatex(33px) rotate(0deg) ;}
+    to{transform:rotate(360deg)translatex(33px) rotate(-360deg) ;}
+}
+
+.mars {
+    height: 30px;
+    width: 30px;
     background: #d8a38f;
     position: absolute;
-    box-shadow: -4px 2px 56px #c1aa81;
-    left: 40%;
-    top: 42%;
+    box-shadow: -4px 2px 56px #fea535;
+    left: 46.5%;
+    top: 46.5%;
     transform: translate(-50%, -50%);
-    animation:orbit-3 10s linear infinite; 
+    animation:orbit-5 30s linear infinite; 
 }
 
-.venus-outline {
-    height: 200px;
-    width: 200px;
+.mars-outline {
+    height: 370px;
+    width: 370px;
 }
 
-@keyframes orbit-3 {
-    from{transform:rotate(0deg)translatex(100px) rotate(0deg) ;}
-    to{transform:rotate(360deg)translatex(100px) rotate(-360deg) ;}
+@keyframes orbit-5 {
+    from{transform:rotate(0deg)translatex(185px) rotate(0deg) ;}
+    to{transform:rotate(360deg)translatex(185px) rotate(-360deg) ;}
 }
-.venus {
-    height: 2.5rem;
-    width: 2.5rem;
+
+.jupiter {
+    height: 40px;
+    width: 40px;
     background: #d8a38f;
     position: absolute;
-    box-shadow: -4px 2px 56px #c1aa81;
-    left: 40%;
-    top: 42%;
+    box-shadow: -4px 2px 56px #cac2b9;
+    left: 45%;
+    top: 45%;
     transform: translate(-50%, -50%);
-    animation:orbit-3 10s linear infinite; 
+    animation:orbit-6 60s linear infinite; 
 }
 
-.venus-outline {
-    height: 200px;
-    width: 200px;
+.jupiter-outline {
+    height: 430px;
+    width: 430px;
 }
 
-@keyframes orbit-3 {
-    from{transform:rotate(0deg)translatex(100px) rotate(0deg) ;}
-    to{transform:rotate(360deg)translatex(100px) rotate(-360deg) ;}
+@keyframes orbit-6 {
+    from{transform:rotate(0deg)translatex(217px) rotate(0deg) ;}
+    to{transform:rotate(360deg)translatex(217px) rotate(-360deg) ;}
 }
-.venus {
-    height: 2.5rem;
-    width: 2.5rem;
+.saturn {
+    height: 50px;
+    width: 50px;
     background: #d8a38f;
     position: absolute;
-    box-shadow: -4px 2px 56px #c1aa81;
-    left: 40%;
-    top: 42%;
+    left: 45%;
+    top: 45%;
     transform: translate(-50%, -50%);
-    animation:orbit-3 10s linear infinite; 
+    animation:orbit-7 90s linear infinite; 
 }
 
-.venus-outline {
-    height: 200px;
-    width: 200px;
+.saturn-outline {
+    height: 500px;
+    width: 500px;
 }
 
-@keyframes orbit-3 {
-    from{transform:rotate(0deg)translatex(100px) rotate(0deg) ;}
-    to{transform:rotate(360deg)translatex(100px) rotate(-360deg) ;}
+@keyframes orbit-7 {
+    from{transform:rotate(0deg)translatex(250px) rotate(0deg) ;}
+    to{transform:rotate(360deg)translatex(250px) rotate(-360deg) ;}
 }
-.venus {
-    height: 2.5rem;
-    width: 2.5rem;
+.uranus {
+    height: 30px;
+    width: 30px;
     background: #d8a38f;
     position: absolute;
-    box-shadow: -4px 2px 56px #c1aa81;
-    left: 40%;
-    top: 42%;
+    box-shadow: -4px 2px 56px #cac2b9;
+    left: 47.5%;
+    top: 47.5%;
     transform: translate(-50%, -50%);
-    animation:orbit-3 10s linear infinite; 
+    animation:orbit-8 200s linear infinite; 
 }
 
-.venus-outline {
-    height: 200px;
-    width: 200px;
+.uranus-outline {
+    height: 560px;
+    width: 560px;
 }
 
-@keyframes orbit-3 {
-    from{transform:rotate(0deg)translatex(100px) rotate(0deg) ;}
-    to{transform:rotate(360deg)translatex(100px) rotate(-360deg) ;}
+@keyframes orbit-8 {
+    from{transform:rotate(0deg)translatex(280px) rotate(0deg) ;}
+    to{transform:rotate(360deg)translatex(280px) rotate(-360deg) ;}
 }
-.venus {
-    height: 2.5rem;
-    width: 2.5rem;
+.neptune {
+    height: 30px;
+    width: 30px;
     background: #d8a38f;
     position: absolute;
-    box-shadow: -4px 2px 56px #c1aa81;
-    left: 40%;
-    top: 42%;
+    box-shadow: -4px 2px 56px #cac2b9;
+    left: 47.5%;
+    top: 47.5%;
     transform: translate(-50%, -50%);
-    animation:orbit-3 10s linear infinite; 
+    animation:orbit-9 400s linear infinite; 
 }
 
-.venus-outline {
-    height: 200px;
-    width: 200px;
+.neptune-outline {
+    height: 620px;
+    width: 620px;
 }
 
-@keyframes orbit-3 {
-    from{transform:rotate(0deg)translatex(100px) rotate(0deg) ;}
-    to{transform:rotate(360deg)translatex(100px) rotate(-360deg) ;}
+@keyframes orbit-9 {
+    from{transform:rotate(0deg)translatex(310px) rotate(0deg) ;}
+    to{transform:rotate(360deg)translatex(310px) rotate(-360deg) ;}
 }
