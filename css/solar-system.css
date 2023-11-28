@@ -12,6 +12,7 @@ body {
 
 .planet {
     border-radius: 50%;
+    z-index: 1;
 }
 
 .sun {
@@ -169,15 +170,15 @@ p {
 }
 
 .jupiter {
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     background-image: url(/assets/images/jupiter.png);
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
     box-shadow: -4px 2px 56px #cac2b9;
-    left: 45%;
-    top: 45%;
+    left: 43%;
+    top: 42%;
     transform: translate(-50%, -50%);
     animation:orbit-6 60s linear infinite; 
 }
@@ -199,9 +200,9 @@ p {
     background-repeat: no-repeat;
     position: absolute;
     left: 45%;
-    top: 45%;
+    top: 47%;
     transform: translate(-50%, -50%);
-    animation:orbit-7 90s linear infinite; 
+    animation:orbit-7 50s linear infinite; 
 }
 
 .saturn-outline {
@@ -258,4 +259,8 @@ p {
 @keyframes orbit-9 {
     from{transform:rotate(0deg)translatex(310px) rotate(0deg) ;}
     to{transform:rotate(360deg)translatex(310px) rotate(-360deg) ;}
+}
+
+.planet:hover {
+    transform: scale(1.2);
 }
