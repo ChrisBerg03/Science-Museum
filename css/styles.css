@@ -17,7 +17,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: absolute;
+    position: relative;
 }
 
 .main-logo {
@@ -26,6 +26,8 @@ header {
 
 .main-logo img {
     height: 100%;
+    width: 100px;
+    object-fit: cover;
 }
 
 header nav ul {
@@ -36,10 +38,7 @@ header nav ul {
     width: 320px;
     margin: 0;
     height: 100%;
-}
-
-header nav {
-    padding: 0 16px 0 0;
+    padding: 0 16px 0 16px;
 }
 
 header ul li {
