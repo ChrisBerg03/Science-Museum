@@ -1,0 +1,22 @@
+.solar-planets {
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+    -webkit-transform:scale(0.9);-moz-transform-scale:(1);
+}
+
+.planets-content {
+    margin: 0 16px 40px 16px;
+    border: 1px solid #000;
+}
+
+.planets-content img {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+body {
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
