@@ -1,0 +1,66 @@
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, .80);
+}
+
+.support-banner-container {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 40px 0;
+}
+
+.support-banner-image img {
+    width: 100vw;
+    height: auto;
+}
+
+.support-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.support-text h1 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 8px 0;
+}
+
+.support-text h2 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.support-us, .contact-us, .internships, .location, .social-media {
+    margin: 0 16px 20px 16px;
+}
+
+.support-us h2, .contact-us h2, .internships h2, .location h2, .social-media h2 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0 0 16px 0;
+}
+
+.support-us p, .contact-us p, .internships p, .location p, .social-media p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 150%;
+    margin: 0 0 16px 0;
+}
+
+.location {
+    width: 80vw;
+}
