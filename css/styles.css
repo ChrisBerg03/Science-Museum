@@ -109,6 +109,15 @@ footer {
     margin: 0 16px 0 16px;
 }
 
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, .80);
+}
+
+
 @media screen and (min-width: 744px) {
     .container {
         margin: 0 35px 0 35px;
