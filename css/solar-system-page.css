@@ -9,7 +9,6 @@ main {
     width: 100vw;
     height: 50vh;
     overflow: hidden;
-    -webkit-transform:scale(1);
     max-width: 1440px;
     margin: 0 0 40px 0;
 }
