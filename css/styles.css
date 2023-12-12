@@ -15,6 +15,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    max-width: 1440px;
 }
 
 header {
@@ -46,9 +47,6 @@ header nav ul {
     margin: 0;
     height: 100%;
     padding: 0 16px 0 16px;
-}
-
-header ul li {
     list-style-type: none;
 }
 
@@ -63,16 +61,12 @@ footer {
     background-color: #3D3333;
     width: 100vw;
     color: #fff;
-    position:static;
+    position: static;
     bottom: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-footer div {
-    font-family: 'Roboto', sans-serif;
 }
 
 .opening h4, .location h4, .follow h4, .involved h4 {
@@ -84,19 +78,64 @@ footer div {
     color: #7383D3;
 }
 
+.opening h4 {
+    white-space: nowrap;
+}
+
 .location p, .follow p, .involved p, .opening p {
     font-size: 12px;
     font-weight: 300;
 }
 
 .opening, .location, .follow, .involved {
-    width: 199px;
+    width: 180px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 16px 0 16px;
 }
 
-.opening, .follow {
-    padding: 0 0 0 16px;
+@media screen and (min-width: 744px) {
+    .container {
+        margin: 0 35px 0 35px;
+    }
+    .main-logo {
+        padding: 0 0 0 35px;
+    }
+    header nav ul {
+        width: 420px;
+        padding: 0 35px 0 35px;
+    }
+    .opening, .location, .follow, .involved {
+        margin: 0 35px 0 35px;
+        width: 110px;
+    }
 }
 
-.location, .involved {
-    padding: 0 16px 0 0;
+@media screen and (min-width: 1440px) {
+    .container {
+        margin: 0 70px 0 70px;
+    }
+    .main-logo {
+        padding: 0 0 0 70px;
+    }
+    .main-logo img {
+
+    }
+    header nav ul {
+        width: 620px;
+        padding: 0 70px 0 70px;
+        font-size: 20px;
+    }
+    .opening, .location, .follow, .involved {
+        margin: 0 70px 0 70px;
+        width: 180px;
+    }
+    .location p, .follow p, .involved p, .opening p {
+        font-size: 16px;
+    }
+    .opening h4, .location h4, .follow h4, .involved h4 {
+        font-size: 24px;
+    }
+    header {
+        height: 100px;
+    }
 }

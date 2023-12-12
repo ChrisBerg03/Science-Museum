@@ -1,5 +1,7 @@
 .hero-image img {
     width: 100vw;
+    max-width: 1440px;
+    max-height: 800px;
 }
 
 .hero-banner-text-container {
@@ -57,20 +59,19 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 16px 16px 40px 16px;
 }
 
 .between-text h3 {
     font-family: 'inter', 'roboto';
     font-size: 24px;
     font-weight: 400;
-    margin: 16px 0 16px 0;
 }
 
 .between-text p {
     font-family: 'inter', 'roboto';
     font-size: 16px;
     font-weight: 400;
-    margin: 0 16px 40px 16px;
 }
 
 .solar-system-container, .explore-container {
@@ -122,3 +123,34 @@
     height: 98%;
     background-color: rgb(0, 0, 0, .80);
 }
+
+@media screen and (min-width: 744px) {
+    .hero-banner-text h2 {
+        font-size: 20px;
+    }
+    
+    .hero-banner-text p {
+        font-size: 16px;
+    }
+    
+    .hero-banner-btn {
+        font-size: 24px;
+        width: 146px;
+        height: 46px;
+    }
+    .hero-banner-text-container {
+        padding: 0 35px 0 35px;
+    }
+    .between-text {
+        margin: 16px 16px 40px 16px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+}
+
+
+
+
