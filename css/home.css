@@ -1,7 +1,14 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1440px;
+}
+
 .hero-image img {
     width: 100vw;
     max-width: 1440px;
-    max-height: 800px;
+    object-fit: contain;
 }
 
 .hero-banner-text-container {
@@ -15,13 +22,14 @@
     position: absolute;
     bottom: 0;
     padding: 0 16px 0 16px;
+    max-width: 1440px;
 }
 
 .hero-banner-text-container a {
     cursor: pointer;
 }
 
-.hero-banner-text h2 {
+.hero-banner-text h1 {
     color: #fff;
     font-family: 'roboto', 'inter';
     font-size: 16px;
@@ -60,6 +68,7 @@
     align-items: center;
     text-align: center;
     margin: 16px 16px 40px 16px;
+    max-width: 1000px;
 }
 
 .between-text h3 {
@@ -82,10 +91,12 @@
     justify-content: center;
     align-items: center;
     margin: 0 0 40px 0;
+    max-width: 1440px;
 }
 
 .solar-system-container img, .explore-container img {
     width: 100vw;
+    max-width: 1440px;
 }
 
 .solar-system-btn, .explore-btn {
@@ -120,12 +131,12 @@
     position: absolute;
     top: 0;
     width: 100%;
-    height: 98%;
+    height: 100%;
     background-color: rgb(0, 0, 0, .80);
 }
 
 @media screen and (min-width: 744px) {
-    .hero-banner-text h2 {
+    .hero-banner-text h1 {
         font-size: 20px;
     }
     
@@ -138,17 +149,53 @@
         width: 146px;
         height: 46px;
     }
+
     .hero-banner-text-container {
         padding: 0 35px 0 35px;
     }
-    .between-text {
-        margin: 16px 16px 40px 16px;
-    }
 
+    .between-text {
+        margin: 16px 35px 40px 35px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
+    .between-text {
+        margin: 16px 70px 40px 70px;
+    }
 
+    .between-text h3 {
+        font-size: 40px;
+    }
+
+    .between-text p {
+        font-size: 28px;
+    }
+
+    .hero-banner-text-container {
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding: 0 70px 0 70px;
+    }
+
+    .hero-banner-text {
+        padding: 0 0 20px 0;
+    }
+
+    .hero-banner-text h1 {
+        font-size: 28px;
+    }
+    
+    .hero-banner-text p {
+        font-size: 20px;
+    }
+    
+    .hero-banner-btn {
+        font-size: 28px;
+        width: 200px;
+        height: 50px;
+    }
 }
 
 
