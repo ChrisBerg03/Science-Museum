@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -61,7 +65,7 @@ main {
 
 .cosmology img, .nanotech img, .computer-science img, .robotics img {
     width: 100vw;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .cosmology a, .nanotech a, .computer-science a, .robotics a {
@@ -73,6 +77,12 @@ main {
     font-size: 24px;
     letter-spacing: 3px;
     font-family: 'Roboto', sans-serif;
+}
+
+.cosmology a:hover, .nanotech a:hover, .computer-science a:hover, .robotics a:hover {
+    border-bottom: 1px solid #fff;
+    letter-spacing: 6px;
+    transition: 0.2s linear;
 }
 
 .cosmology, .nanotech, .computer-science, .robotics {
@@ -91,7 +101,7 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .dark-overlay-two {
