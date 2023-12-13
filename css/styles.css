@@ -68,6 +68,7 @@ header nav ul {
 
 header nav ul li:hover {
     transition: 0.2s linear;
+    letter-spacing: 3px;
     border-bottom: 1px solid #fff;
     cursor: pointer;
 }
@@ -133,8 +134,9 @@ footer {
         padding: 0 0 0 35px;
     }
     header nav ul {
-        width: 420px;
+        width: 520px;
         padding: 0 35px 0 35px;
+        font-size: 20px;
     }
     .opening, .location, .follow, .involved {
         margin: 0 35px 0 35px;
@@ -153,9 +155,9 @@ footer {
         width: 120px;
     }
     header nav ul {
-        width: 620px;
+        width: 650px;
         padding: 0 70px 0 70px;
-        font-size: 20px;
+        font-size: 24px;
     }
     .opening, .location, .follow, .involved {
         margin: 0 70px 0 70px;
