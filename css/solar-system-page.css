@@ -1,13 +1,29 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
 .solar-planets {
     width: 100vw;
     height: 50vh;
     overflow: hidden;
-    -webkit-transform:scale(0.9);-moz-transform-scale:(1);
+    max-width: 1440px;
+    margin: 0 0 40px 0;
 }
 
 .planets-content {
     margin: 0 16px 40px 16px;
     border: 1px solid #000;
+    max-width: 1000px;
+}
+
+.planets-content p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 150%;
+    padding: 0 16px 0 16px;
 }
 
 .planets-content img {
@@ -16,7 +32,21 @@
     float: right;
 }
 
-body {
-    scroll-behavior: smooth;
-    overflow: scroll;
+@media screen and (min-width: 744px) {
+    .planets-content {
+        margin: 0 35px 40px 35px;
+    }
+    .planets-content img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .planets-content {
+        margin: 0 70px 40px 70px;
+    }
+    .solar-planets {
+        height: 75vh;
+    }
 }

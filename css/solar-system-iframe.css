@@ -2,12 +2,15 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-image: url();
     background-size: 100%;
-    background-color: #999;
+    background-color: #000;
 }
 
 .planet {
