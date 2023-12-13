@@ -95,6 +95,12 @@ main {
     .support-us, .contact-us, .internships, .location-wmap, .social-media {
         margin: 0 70px 20px 70px;
     }
+    .support-us h2, .contact-us h2, .internships h2, .location-wmap h2, .social-media h2 {
+        font-size: 32px;
+    }
+    .support-us p, .contact-us p, .internships p, .location-wmap p, .social-media p {
+        font-size: 18px;
+    }
     .location-wmap iframe {
         width: 500px;
         height: 500px;

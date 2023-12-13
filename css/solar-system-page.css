@@ -32,11 +32,6 @@ main {
     float: right;
 }
 
-body {
-    scroll-behavior: smooth;
-    overflow: scroll;
-}
-
 @media screen and (min-width: 744px) {
     .planets-content {
         margin: 0 35px 40px 35px;
