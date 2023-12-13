@@ -1,7 +1,3 @@
-body {
-    overflow-x: hidden;
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -50,7 +46,8 @@ main {
     margin: 0;
 }
 
-.hero-banner-btn {
+.hero-banner-btn button {
+    border: none;
     color: #fff;
     font-family: 'roboto', 'inter';
     font-size: 20px;
@@ -62,7 +59,7 @@ main {
     border-radius: 16px;
 }
 
-.hero-banner-btn:hover {
+.hero-banner-btn button:hover {
     letter-spacing: 3px;
     transition: 0.2s linear;
 }
@@ -150,7 +147,7 @@ main {
         font-size: 16px;
     }
     
-    .hero-banner-btn {
+    .hero-banner-btn button {
         font-size: 28px;
         width: 180px;
         height: 54px;
@@ -205,7 +202,7 @@ main {
         font-size: 20px;
     }
     
-    .hero-banner-btn {
+    .hero-banner-btn button {
         font-size: 28px;
         width: 200px;
         height: 50px;
