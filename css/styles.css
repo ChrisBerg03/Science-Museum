@@ -127,6 +127,15 @@ footer {
 }
 
 
+@media screen and (max-width: 420px) {
+     header nav ul {
+        width: 250px;
+        padding: 0 0 0 4px;
+        font-size: 14px;
+    }
+
+}
+
 @media screen and (min-width: 744px) {
     .container {
         margin: 0 35px 0 35px;
