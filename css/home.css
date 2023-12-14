@@ -1,7 +1,3 @@
-body {
-    overflow-x: hidden;
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -50,7 +46,8 @@ main {
     margin: 0;
 }
 
-.hero-banner-btn {
+.hero-banner-btn button {
+    border: none;
     color: #fff;
     font-family: 'roboto', 'inter';
     font-size: 20px;
@@ -62,8 +59,8 @@ main {
     border-radius: 16px;
 }
 
-.hero-banner-btn:hover {
-    letter-spacing: 3px;
+.hero-banner-btn button:hover {
+    letter-spacing: 2px;
     transition: 0.2s linear;
 }
 
@@ -145,29 +142,23 @@ main {
     .hero-banner-text h1 {
         font-size: 28px;
     }
-    
     .hero-banner-text p {
         font-size: 16px;
     }
-    
-    .hero-banner-btn {
+    .hero-banner-btn button {
         font-size: 28px;
         width: 180px;
         height: 54px;
     }
-
     .hero-banner-text-container {
         padding: 0 35px 0 35px;
     }
-
     .between-text {
         margin: 16px 35px 40px 35px;
     }
-
     .between-text h3 {
         font-size: 32px;
     }
-
     .between-text p {
         font-size: 20px;
     }
@@ -177,41 +168,30 @@ main {
     .between-text {
         margin: 16px 70px 40px 70px;
     }
-
     .between-text h3 {
         font-size: 40px;
     }
-
     .between-text p {
         font-size: 28px;
     }
-
     .hero-banner-text-container {
         flex-direction: column;
         align-items: start;
         justify-content: center;
         padding: 0 70px 0 70px;
     }
-
     .hero-banner-text {
         padding: 0 0 20px 0;
     }
-
     .hero-banner-text h1 {
         font-size: 28px;
     }
-    
     .hero-banner-text p {
         font-size: 20px;
     }
-    
-    .hero-banner-btn {
+    .hero-banner-btn button {
         font-size: 28px;
         width: 200px;
         height: 50px;
     }
 }
-
-
-
-
