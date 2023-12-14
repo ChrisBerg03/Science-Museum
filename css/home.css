@@ -60,7 +60,7 @@ main {
 }
 
 .hero-banner-btn button:hover {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     transition: 0.2s linear;
 }
 
