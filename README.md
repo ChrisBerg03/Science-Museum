@@ -1,4 +1,6 @@
 <h1>A school project: Science museum</h1>
+<img src="/assets/images/scienceMuseum.png" alt="an image of the front page"/>
+
 <h2>Features</h2>
 <ul>
   <li>Animation</li>
