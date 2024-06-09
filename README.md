@@ -4,6 +4,16 @@
 
 This is a website designed for a museum about science. Implemented using only html and css. The website allows the user to explore the museums exhibitions, plan a trip to the museum and read about their different discoveries. The website is scalled for mobile, tablet and desktop use. Core functionality of this website is to inform users.
 
+## Demo or Screenshots:
+
+(Click image to open in full size)
+
+<div  style="display: flex; flex-direction: row;">
+    <a href="/assets/images/scienceMuseum.png">
+      <img src="/assets/images/scienceMuseum.png" alt="image test" width="200"/> 
+  </a>
+</div>
+
 ## Features
 
 <ul>
